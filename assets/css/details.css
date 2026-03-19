@@ -1,0 +1,13 @@
+.content-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+
+.pokemonDetails {
+   display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
