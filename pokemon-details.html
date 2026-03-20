@@ -1,10 +1,9 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pokedex</title>
-
+    <title>Pokemon Dtails</title>
     <!-- Normalize CSS -->
     <link
       rel="stylesheet"
@@ -27,20 +26,12 @@
     <link rel="stylesheet" href="assets/css/pokedex.css" />
   </head>
   <body>
-    <section class="content">
-      <h1>Pokedex</h1>
-      <ol id="pokemonList" class="pokemons">
-        
-      </ol>
-      <div class="pagination">
-<button id="loadMoreButton" type="button">
-        Load More
-      </button>
-      </div>
-      
+    <section>
+      <ol id="pokemonDetails"></ol>
     </section>
+
     <script src="assets/js/pokemon-model.js"></script>
     <script src="assets/js/poke-api.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/details.js"></script>
   </body>
 </html>
